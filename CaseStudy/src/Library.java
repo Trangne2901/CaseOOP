@@ -33,7 +33,8 @@ public class Library {
         }
         return ebooks;
     }
-// Xoas sp theo id
+
+    // Xoas sp theo id
     public boolean deleteNewEbook(String idBook) {
         if (ebooks.length == 0) {
             return false;
@@ -50,5 +51,6 @@ public class Library {
         return true;
     }
 
+    //tìm kiếm sách điện tử dựa trên mã sách
 
 }
